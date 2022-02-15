@@ -1,0 +1,74 @@
+.home {
+    background-color: #121212;
+    background-image: url(/img/img_home.svg);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.home_intro {
+    margin-left: 100px;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.intro {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+.nome {
+    color: #00D2DF;
+    font-size: 3.3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 30px 0;
+}
+
+.home_btn {
+    margin-left: 100px;
+    width: 50%;
+}
+
+.btn_linkedin,
+.btn_github {
+    color: #fff;
+    border-right: 10px solid;
+    border-left: 10px solid;
+    border-image-slice: 1;
+    border-width: 1px;
+    border-image-source: linear-gradient(to bottom, #00D2DF, #743ad5);
+    padding: 3px 8px;
+    text-decoration: none;
+}
+
+.btn_github {
+    border-image-source: linear-gradient(to bottom, #743ad5, #d53a9d);
+    margin-right: 10px;
+}
+
+@media screen and (max-width:700px) {
+    .home {
+        background-color: #121212;
+        background-image: none;
+        height: 70vh;
+    }
+
+    .home_intro {
+        margin-left: 30px;
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .home_btn {
+        margin-left: 30px;
+        width: 80%;
+    }
+}

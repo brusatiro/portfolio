@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/icon.ico">
+    <title>Portfólio - Bruna Satiro</title>
+    <script src="https://kit.fontawesome.com/67568c9f06.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/sobremim.css">
+    <link rel="stylesheet" href="./css/projetos.css">
+    <link rel="stylesheet" href="./css/footer.css">
+</head>
+
+<body>
+    <header class="menu">
+        <a href="#home" class="menu_titulo"> Portfólio</a>
+        <nav>
+            <ul class="menu_lista">
+                <li class="menu_item" id="item_home"><a href="#home">Home</a></li>
+                <li class="menu_item"><a href="#sobremim">Sobre mim</a></li>
+                <li class="menu_item"><a href="#projetos">Projetos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="home" id="home">
+        <div class="home_intro">
+            <h2 class="intro">Olá, eu sou a</h2>
+            <span class="nome">Bruna Satiro</span>
+            <h2 class="intro">estudante de Desenvolvimento Web.</h2>
+        </div>
+        <div class="home_btn">
+            <a href="https://github.com/brusatiro" class="btn_github" target="_blank"><i class="fa-brands fa-github"
+                    id="icon_github"></i> GitHub</a>
+            <a href="https://www.linkedin.com/in/bruna-satiro" class="btn_linkedin" target="_blank"><i
+                    class="fa-brands fa-linkedin" id="icon_linkedin"></i> LinkedIn</a>
+        </div>
+    </main>
+
+    <section class="sobre_mim" id="sobremim">
+        <div class="div_foto">
+            <img class="foto_pessoal" src="./img/foto_pessoal.png" alt="Foto pessoal sorrindo">
+        </div>
+        <div class="div_sobremim">
+            <h2 class="titulo_sobremim">Sobre mim</h2>
+            <h3 class="local_sobremim">São Paulo, Brasil</h3>
+            <p class="texto_sobremim">Estudante de Desenvolvimento Web, apaixonada por tecnologia. Faço o curso
+                tecnólogo Sistemas para Internet, na Fiap e tenho conhecimento em HTML5, CSS3, JavaScript, UX, Design
+                Thinking e iniciando os estudos em React com o objetivo de me aprofundar no desenvolvimento front-end.
+            </p>
+            <div class="btn_sobremim">
+                <a href="https://drive.google.com/file/d/14fs00nu5GYZVyPbw-A4Xc3q6ruYm8hWw/view?usp=sharing"
+                    class="btn_cv" target="_blank"><i class="fa-solid fa-cloud-arrow-down"></i> Currículo</a>
+                <a href="mailto:brunasatiro@outlook.com" class="btn_email" target="_blank"><i
+                        class="fa-solid fa-envelope"></i> E-mail</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="projetos" id="projetos">
+        <div>
+            <h1 class="titulo_projetos">Projetos</h1>
+        </div>
+        <div class="div_projetos">
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                    <div class="card card_projeto">
+                        <img src="./img/print_login.png" class="card-img-top img_projeto"
+                            alt="Print do projeto 'Página de login'">
+                        <div class="card-body descricao_projeto">
+                            <h5 class="card-title">Página de Login</h5>
+                            <p class="card-text">Projeto desenvolvido a partir do desafio 4 proposto pelo Iuri Silva
+                                (iuricode) na comunidade Codelândia do Discord.</p>
+                            <div class="icon_tech">
+                                <i class="fa-brands fa-html5"></i>
+                                <i class="fa-brands fa-css3-alt"></i>
+                            </div>
+                        </div>
+                        <div class="div_button">
+                            <button class="btn_projeto link_rep">
+                                <a href="https://github.com/brusatiro/login-codelandia" target="_blank"><i
+                                        class="fa-solid fa-code-branch"></i> Repositório</a>
+                            </button>
+                            <button class="btn_projeto link_projeto">
+                                <a href="https://brusatiro.github.io/login-codelandia/" target="_blank"><i
+                                        class="fa-solid fa-link"></i> Visualizar</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card card_projeto">
+                        <img src="./img/gif-blog.gif" class="card-img-top img_projeto" alt="Gif do projeto 'Blog'">
+                        <div class="card-body descricao_projeto">
+                            <h5 class="card-title">Blog</h5>
+                            <p class="card-text">Projeto desenvolvido a partir do desafio 1 proposto pelo Iuri Silva
+                                (iuricode) na comunidade Codelândia do Discord.</p>
+                            <div class="icon_tech">
+                                <i class="fa-brands fa-html5"></i>
+                                <i class="fa-brands fa-css3-alt"></i>
+                                <i class="fa-brands fa-js-square"></i>
+                            </div>
+                        </div>
+                        <div class="div_button">
+                            <button class="btn_projeto link_rep">
+                                <a href="https://github.com/brusatiro/blog-codelandia" target="_blank"><i
+                                        class="fa-solid fa-code-branch"></i> Repositório</a>
+                            </button>
+                            <button class="btn_projeto link_projeto">
+                                <a href="https://brusatiro.github.io/blog-codelandia/" target="_blank"><i
+                                        class="fa-solid fa-link"></i> Visualizar</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card card_projeto">
+                        <img src="./img/gif-flappybird.gif" class="card-img-top img_projeto"
+                            alt="Gif do projeto do jogo 'Flappy Bird">
+                        <div class="card-body descricao_projeto">
+                            <h5 class="card-title">Flappy Bird</h5>
+                            <p class="card-text"> Jogo Flappy Bird proposto pelo curso Desenvolvimento Web Moderno da
+                                Udemy. </p>
+                            <div class="icon_tech">
+                                <i class="fa-brands fa-html5"></i>
+                                <i class="fa-brands fa-css3-alt"></i>
+                                <i class="fa-brands fa-js-square"></i>
+                            </div>
+                        </div>
+                        <div class="div_button">
+                            <button class="btn_projeto link_rep">
+                                <a href="https://github.com/brusatiro/flappybird" target="_blank"><i
+                                        class="fa-solid fa-code-branch"></i> Repositório</a>
+                            </button>
+                            <button class="btn_projeto link_projeto">
+                                <a href="https://brusatiro.github.io/flappybird/" target="_blank"><i
+                                        class="fa-solid fa-link"></i> Visualizar</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card card_projeto">
+                        <img src="./img/print_supertrunfo.png" class="card-img-top img_projeto"
+                            alt="Print do projeto do jogo 'Super Trunfo">
+                        <div class="card-body descricao_projeto">
+                            <h5 class="card-title">Super Trunfo</h5>
+                            <p class="card-text">Jogo Super Trunfo personalizado, proposto pela Alura na Imersão Dev.
+                            </p>
+                            <div class="icon_tech">
+                                <i class="fa-brands fa-html5"></i>
+                                <i class="fa-brands fa-css3-alt"></i>
+                                <i class="fa-brands fa-js-square"></i>
+                            </div>
+                        </div>
+                        <div class="div_button">
+                            <button class="btn_projeto link_rep">
+                                <a href="https://github.com/brusatiro/super_trunfo" target="_blank"><i
+                                        class="fa-solid fa-code-branch"></i> Repositório</a>
+                            </button>
+                            <button class="btn_projeto link_projeto">
+                                <a href="https://sharp-rosalind-112d90.netlify.app/" target="_blank"><i
+                                        class="fa-solid fa-link"></i> Visualizar</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ver_mais">
+            <a href="./projetos.html">
+                <h2>Ver mais projetos <i class="fa-solid fa-arrow-right"></i></h4>
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <h4>@ 2022 - Bruna Satiro</h4>
+        <h4>Powered by <img src="./img/icon.ico" alt=""></h4>
+    </footer>
+
+</body>
+
+</html>
