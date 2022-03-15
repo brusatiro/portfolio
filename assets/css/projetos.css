@@ -1,0 +1,97 @@
+.projetos {
+    background-color: #121212;
+    padding: 80px 80px;
+    min-height: 100vh;
+}
+
+.titulo_projetos {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.card_projeto {
+    border: none;
+}
+
+.img_projeto {
+    height: 250px;
+    border-left: solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source: linear-gradient(to top, #00D2DF, #743ad5);
+}
+
+.descricao_projeto {
+    background-color: #121212;
+    padding: 0;
+}
+
+.card-title {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 1.4rem;
+    margin-top: 10px;
+}
+
+.card-text {
+    color: #C4C4C4;
+    font-weight: 300;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.icon_tech {
+    color: #00D2DF;
+}
+
+.div_button {
+    background-color: #121212;
+    padding: 20px 0;
+    font-size: 0.9rem;
+}
+
+.btn_projeto a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.link_rep, .link_projeto {
+    color: #fff;
+    border-right: 10px solid;
+    border-left: 10px solid;
+    border-image-slice: 1;
+    border-width: 1px;
+    border-image-source: linear-gradient(to bottom, #00D2DF, #743ad5);
+    padding: 3px 8px;
+    text-decoration: none;
+}
+
+.link_projeto {
+    border-image-source: linear-gradient(to bottom, #743ad5, #d53a9d);
+    margin-left: 10px;
+}
+
+.ver_mais {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 30px;
+    color: #00D2DF;
+    font-size: 1.2rem;
+}
+
+.ver_mais i {
+    margin-left: 5px;
+}
+
+.ver_mais:hover, .ver_mais:active {
+    color: #743ad5;
+    text-decoration: underline;
+}
+
+.btn_projeto a:hover {
+    color: #00D2DF;
+}
