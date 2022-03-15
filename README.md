@@ -1,7 +1,8 @@
-# Portfólio
+# Portfólio 👩🏻‍💻
 
 <h2>📝 Sobre</h2>
-<p>Portfólio desenvolvido a partir do layout disponibilizado pela comunidade Codelândia do Iuri Silva.</p>
+<p>Portfólio com um pouco sobre mim e alguns projetos desenvolvidos durante os meus estudos.</p>
+<p>Layout disponibilizado pelo Iuri Silva na comunidade Codelândia.</p>
 
 <h2>💻 Tecnologias</h2>
 <ul>
@@ -10,7 +11,7 @@
 </ul>
 
 <h2>🔗 Link</h2>
-<p><a href="https://priceless-rosalind-aea9c2.netlify.app" target="_blank">Clique aqui</a></p>
+<p><a href="https://portfolio-bruna-satiro.netlify.app/projetos.html" target="_blank">Clique aqui</a></p>
 
 <h2>📧 Entre em contato:</h2>
   <p><a href="mailto:brunasatiro@outlook.com" target="_blank"><img src="https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" target="_blank"></a></p>
